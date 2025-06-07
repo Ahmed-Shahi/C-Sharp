@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mshah\\Desktop\\AHMED\\University\\semester 2\\OOP\\GIT\\C-Sharp\\Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8312C526-32AD-48DF-A7C6-17559C79D3A2}|Practice\\Practice.csproj|c:\\users\\mshah\\desktop\\ahmed\\university\\semester 2\\oop\\git\\c-sharp\\practice\\practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8312C526-32AD-48DF-A7C6-17559C79D3A2}|Practice\\Practice.csproj|solutionrelative:practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mshah\\Desktop\\AHMED\\University\\semester 2\\OOP\\GIT\\C-Sharp\\Practice\\Practice\\Program.cs",
+              "RelativeDocumentMoniker": "Practice\\Program.cs",
+              "ToolTip": "C:\\Users\\mshah\\Desktop\\AHMED\\University\\semester 2\\OOP\\GIT\\C-Sharp\\Practice\\Practice\\Program.cs",
+              "RelativeToolTip": "Practice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:16:40.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

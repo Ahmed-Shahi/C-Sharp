@@ -1,0 +1,7 @@
+C:\Users\mshah\Desktop\AHMED\University\semester 2\OOP\GIT\C-Sharp\Interface\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\mshah\Desktop\AHMED\University\semester 2\OOP\GIT\C-Sharp\Interface\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\mshah\Desktop\AHMED\University\semester 2\OOP\GIT\C-Sharp\Interface\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\mshah\Desktop\AHMED\University\semester 2\OOP\GIT\C-Sharp\Interface\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\mshah\Desktop\AHMED\University\semester 2\OOP\GIT\C-Sharp\Interface\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\mshah\Desktop\AHMED\University\semester 2\OOP\GIT\C-Sharp\Interface\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\mshah\Desktop\AHMED\University\semester 2\OOP\GIT\C-Sharp\Interface\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
