@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelhead = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.comboBoxBatch = new System.Windows.Forms.ComboBox();
             this.comboBoxClass = new System.Windows.Forms.ComboBox();
             this.textBoxAge = new System.Windows.Forms.TextBox();
@@ -39,7 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panelfoot = new System.Windows.Forms.Panel();
             this.dgv1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             this.panelhead.SuspendLayout();
             this.panelfoot.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
@@ -62,6 +63,26 @@
             this.panelhead.Name = "panelhead";
             this.panelhead.Size = new System.Drawing.Size(849, 368);
             this.panelhead.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.BackColor = System.Drawing.Color.LightGray;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.BorderSize = 10;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button1.Location = new System.Drawing.Point(307, 290);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(302, 51);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "SUBMIT";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBoxBatch
             // 
@@ -186,25 +207,12 @@
             this.dgv1.Size = new System.Drawing.Size(820, 221);
             this.dgv1.TabIndex = 0;
             // 
-            // button1
+            // mySqlCommand1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.LightGray;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.BorderSize = 10;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(307, 290);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(302, 51);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "SUBMIT";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.mySqlCommand1.CacheAge = 0;
+            this.mySqlCommand1.Connection = null;
+            this.mySqlCommand1.EnableCaching = false;
+            this.mySqlCommand1.Transaction = null;
             // 
             // Registration
             // 
@@ -238,5 +246,6 @@
         private System.Windows.Forms.Panel panelfoot;
         private System.Windows.Forms.DataGridView dgv1;
         private System.Windows.Forms.Button button1;
+        private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
     }
 }

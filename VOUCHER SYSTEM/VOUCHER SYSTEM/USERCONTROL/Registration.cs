@@ -47,7 +47,7 @@ namespace VOUCHER_SYSTEM
             try
             {
                 conn.Open();
-                string query = "INSERT INTO STD (NAME, Class , Fee , Age, Batch) " +
+                string query = "INSERT INTO STD (Name, Class , Fee , Age, Batch) " +
                                   "VALUES (@name, @class, @fee , @Age, @Batch)";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@name", Name);
@@ -57,7 +57,8 @@ namespace VOUCHER_SYSTEM
                 cmd.Parameters.AddWithValue("@Batch", Batch);
 
                 cmd.ExecuteNonQuery();
-
+                
+                // Clear the Feilds 
                 textBoxName.Text = "";
                 comboBoxClass.SelectedIndex = -1;
                 textBoxAge.Text = "";
